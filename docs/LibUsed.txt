@@ -1,0 +1,3 @@
+https://fkhadra.github.io/react-toastify/the-gist-of-react-toastify
+BOOTSTRAP
+https://www.npmjs.com/package/react-sticky-footer

@@ -1,0 +1,114 @@
+/* general styling */
+
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.bmi-calculator {
+  color: #172a3a;
+  font-family: "Oswald", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: #09bc8a;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: ease-in-out 0.5s;
+  text-shadow: 2px 2px #172a3a;
+}
+
+button:hover {
+  background-color: #004346;
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+input {
+  color: #172a3a;
+  font-size: 1rem;
+}
+
+input,
+button {
+  border: 2px solid #004346;
+  border-radius: 2px;
+  font-family: "Oswald", sans-serif;
+}
+
+input:invalid {
+  box-shadow: none;
+}
+
+/* utility */
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.form-item {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+/* structure */
+
+header {
+  background-color: #fff;
+}
+
+header,
+.container-non-bootstrap {
+  padding: 2rem;
+}
+
+.container-non-bootstrap {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.calculator {
+  background-color: #fff;
+  border: 2px solid #172a3a;
+  border-radius: 5px;
+  height: 300px;
+  padding: 1rem;
+  text-align: center;
+  min-width: 350px;
+  margin-top: 7%;
+}
+
+form {
+  height: 100%;
+}

@@ -1,0 +1,22 @@
+.main {
+  font-family: arial;
+  padding: 25px;
+  margin-top: 40px;
+  font-size: 4em;
+}
+
+#outputrjg {
+  font-size: 3em;
+  width: 95%;
+  height: auto;
+  background-color: white;
+  border: 3px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 45px;
+}
+
+.btn {
+  margin-top: 40px;
+  font-size: 1.8em;
+}

@@ -1,0 +1,12 @@
+/*
+* src/styles/board.css
+*/
+
+.board {
+  width: 250px;
+}
+
+.board-row {
+  display: flex;
+  flex-flow: row wrap;
+}
